@@ -5,6 +5,7 @@ from time import sleep
 
 def clear():
     os.system('cls')
+#Havent made the computer player
 
 class TicTaeToe:
     def __init__(self):
@@ -23,6 +24,8 @@ class TicTaeToe:
             print("!!!ALERT!!!Your input is invalid. Please try again!! \n")
             sleep(1)
             return True
+    def computer_move(self):
+        pass
 
     def show_result(self,placeholder):
         clear()
